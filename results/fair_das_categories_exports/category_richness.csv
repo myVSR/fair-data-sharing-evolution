@@ -1,0 +1,11 @@
+category,word_count,word_count,word_count,sentence_count,sentence_count,sentence_count
+,mean,median,std,mean,median,std
+repository_named,44.8,31.0,56.9,2.6,2.0,3.0
+accession_provided,41.6,28.0,71.6,2.5,2.0,5.4
+no_das_but_accession,0.0,0.0,0.0,0.0,0.0,0.0
+open_unspecified,18.5,14.0,36.8,1.4,1.0,1.7
+supplementary_only,19.8,19.0,19.4,1.3,1.0,1.0
+no_das_but_supp,0.0,0.0,0.0,0.0,0.0,0.0
+available_on_request,19.3,18.0,17.1,1.2,1.0,0.9
+restricted,46.1,32.0,77.4,2.4,2.0,3.4
+no_statement,0.0,0.0,0.0,0.0,0.0,0.0

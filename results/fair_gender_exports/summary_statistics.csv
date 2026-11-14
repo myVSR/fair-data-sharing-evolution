@@ -1,0 +1,5 @@
+Comparison,F mean,M mean,Gap F-M,p-value,Effect r,Note
+All authors -- data-sharing score,4.112,4.212,-0.100,0.00e+00,0.4880,
+First authors -- data-sharing score,4.013,4.070,-0.057,3.96e-184,0.4926,
+First authors -- pre-2016,4.596,4.480,+0.116,3.96e-51,0.5088,2011-2015
+First authors -- post-2016,3.903,3.979,-0.076,1.37e-215,0.4911,2017-2025

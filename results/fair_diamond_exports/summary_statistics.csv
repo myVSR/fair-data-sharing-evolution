@@ -1,0 +1,6 @@
+Comparison,Diamond n,Diamond mean,Other n,Other mean,Gap,p-value,Effect r,Sig
+Diamond OA vs Gold OA (APC),45228,5.618,2491562,4.056,1.562,0.00e+00,0.6799,***
+Diamond OA vs Hybrid,45228,5.618,0,,,nan,,ns
+Diamond OA vs Subscription,45228,5.618,1414090,3.913,1.704,0.00e+00,0.6737,***
+Beilstein vs Corpus overall,6483,4.322,6867693,4.018,0.304,6.81e-32,0.5406,***
+Beilstein vs Other Diamond OA,6483,4.322,38745,5.834,-1.513,0.00e+00,0.3235,***

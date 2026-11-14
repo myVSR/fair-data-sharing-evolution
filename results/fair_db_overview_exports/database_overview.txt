@@ -1,0 +1,445 @@
+Database overview -- generated 2026-11-08 21:55
+Database path: /home/shsam/tuc/gitlab/samuel-research/10yearsfairdas/data/processed/pmc_fair.db
+File size: 30.91 GB
+
+Tables found: 28
+  - accession_number
+  - affiliation
+  - article
+  - article_author
+  - article_discipline
+  - article_funder
+  - article_keyword
+  - article_mesh
+  - author
+  - author_affiliation
+  - code_availability
+  - code_link
+  - da_link
+  - das_category
+  - data_availability
+  - ethics_statement
+  - ethics_sub_type
+  - fuji_article_link
+  - fuji_assessment
+  - fuji_metric
+  - given_name_gender
+  - journal
+  - journal_oa
+  - keyword
+  - link_rot
+  - link_rot_run
+  - repo_classification
+  - supplementary_material
+
+============================================================
+TABLE ROW COUNTS (largest first)
+============================================================
+                 table       rows
+        article_author 47,920,596
+      accession_number 39,438,861
+    author_affiliation 36,459,340
+          article_mesh 36,127,961
+       article_keyword 27,605,784
+                author 13,394,080
+           affiliation 11,308,170
+        article_funder 10,634,891
+               article  6,885,547
+    article_discipline  6,885,547
+          das_category  6,885,547
+supplementary_material  6,697,313
+               keyword  4,528,449
+           fuji_metric  3,549,073
+     data_availability  3,013,543
+     given_name_gender  2,150,835
+      ethics_statement  1,245,851
+               da_link  1,169,559
+   repo_classification  1,169,559
+              link_rot  1,129,798
+     fuji_article_link    253,112
+       fuji_assessment    210,336
+       ethics_sub_type    124,196
+             code_link     86,101
+     code_availability     64,157
+               journal     22,138
+            journal_oa     22,138
+          link_rot_run          3
+
+Total rows across all tables: 268,982,485
+Auditing accession_number ...
+Auditing affiliation ...
+Auditing article ...
+Auditing article_author ...
+Auditing article_discipline ...
+Auditing article_funder ...
+Auditing article_keyword ...
+Auditing article_mesh ...
+Auditing author ...
+Auditing author_affiliation ...
+Auditing code_availability ...
+Auditing code_link ...
+Auditing da_link ...
+Auditing das_category ...
+Auditing data_availability ...
+Auditing ethics_statement ...
+Auditing ethics_sub_type ...
+Auditing fuji_article_link ...
+Auditing fuji_assessment ...
+Auditing fuji_metric ...
+Auditing given_name_gender ...
+Auditing journal ...
+Auditing journal_oa ...
+Auditing keyword ...
+Auditing link_rot ...
+Auditing link_rot_run ...
+Auditing repo_classification ...
+Auditing supplementary_material ...
+
+==========================================================================================
+MISSING-DATA AUDIT (NULL, or '' for text columns) -- every column, every table
+==========================================================================================
+
+--- accession_number  (39,438,861 rows) ---
+    column n_missing pct_missing
+    acc_id         0        0.0%
+article_id         0        0.0%
+   db_name         0        0.0%
+ accession         0        0.0%
+       url 7,332,722       18.6%
+
+--- affiliation  (11,308,170 rows) ---
+        column n_missing pct_missing
+affiliation_id         0        0.0%
+   affiliation         0        0.0%
+
+--- article  (6,885,547 rows) ---
+             column n_missing pct_missing
+         article_id         0        0.0%
+         journal_id         0        0.0%
+             pmc_id 6,885,547      100.0%
+          pubmed_id   243,749        3.5%
+                doi    53,913        0.8%
+       article_type        12        0.0%
+              title       576        0.0%
+            subject        27        0.0%
+           keywords 1,693,848       24.6%
+copyright_statement   226,399        3.3%
+            license    41,453        0.6%
+           pub_year    25,939        0.4%
+          pub_month   270,793        3.9%
+            pub_day 6,256,633       90.9%
+      received_date 1,046,050       15.2%
+      accepted_date   979,172       14.2%
+          epub_date   640,876        9.3%
+               year     4,632        0.1%
+
+--- article_author  (47,920,596 rows) ---
+         column n_missing pct_missing
+     article_id         0        0.0%
+      author_id         0        0.0%
+author_position         0        0.0%
+
+--- article_discipline  (6,885,547 rows) ---
+    column n_missing pct_missing
+article_id         0        0.0%
+discipline         0        0.0%
+    method         0        0.0%
+
+--- article_funder  (10,634,891 rows) ---
+        column n_missing pct_missing
+     funder_id         0        0.0%
+    article_id         0        0.0%
+    funder_raw 4,463,062       42.0%
+   funder_norm         0        0.0%
+      grant_id 5,946,440       55.9%
+funder_country 8,795,370       82.7%
+
+--- article_keyword  (27,605,784 rows) ---
+    column n_missing pct_missing
+article_id         0        0.0%
+keyword_id         0        0.0%
+
+--- article_mesh  (36,127,961 rows) ---
+    column n_missing pct_missing
+   mesh_id         0        0.0%
+article_id         0        0.0%
+ mesh_term         0        0.0%
+mesh_major         0        0.0%
+mesh_broad         0        0.0%
+
+--- author  (13,394,080 rows) ---
+    column  n_missing pct_missing
+ author_id          0        0.0%
+   surname      8,269        0.1%
+given_name     19,075        0.1%
+ full_name      7,859        0.1%
+     orcid 10,089,823       75.3%
+     email 11,844,568       88.4%
+
+--- author_affiliation  (36,459,340 rows) ---
+        column n_missing pct_missing
+    article_id         0        0.0%
+     author_id         0        0.0%
+affiliation_id         0        0.0%
+
+--- code_availability  (64,157 rows) ---
+              column n_missing pct_missing
+             code_id         0        0.0%
+          article_id         0        0.0%
+           statement         0        0.0%
+              source         0        0.0%
+          word_count         0        0.0%
+is_combined_with_das         0        0.0%
+          has_github         0        0.0%
+          has_gitlab         0        0.0%
+       has_bitbucket         0        0.0%
+          has_zenodo         0        0.0%
+             has_osf         0        0.0%
+             has_doi         0        0.0%
+         has_license         0        0.0%
+    has_request_only         0        0.0%
+
+--- code_link  (86,101 rows) ---
+   column n_missing pct_missing
+  link_id         0        0.0%
+  code_id         0        0.0%
+      url         0        0.0%
+    label     3,153        3.7%
+link_type         0        0.0%
+
+--- da_link  (1,169,559 rows) ---
+   column n_missing pct_missing
+  link_id         0        0.0%
+    da_id         0        0.0%
+      url         0        0.0%
+    label    41,573        3.6%
+link_type         0        0.0%
+
+--- das_category  (6,885,547 rows) ---
+            column n_missing pct_missing
+            cat_id         0        0.0%
+        article_id         0        0.0%
+  primary_category         0        0.0%
+data_sharing_score         0        0.0%
+  mentions_license         0        0.0%
+      mentions_doi         0        0.0%
+   mentions_github         0        0.0%
+           has_url         0        0.0%
+     has_accession         0        0.0%
+        word_count         0        0.0%
+    sentence_count         0        0.0%
+             notes         0        0.0%
+
+--- data_availability  (3,013,543 rows) ---
+    column n_missing pct_missing
+     da_id         0        0.0%
+article_id         0        0.0%
+ statement         0        0.0%
+    source         0        0.0%
+
+--- ethics_statement  (1,245,851 rows) ---
+          column n_missing pct_missing
+       ethics_id         0        0.0%
+      article_id         0        0.0%
+       statement         0        0.0%
+          source         0        0.0%
+      word_count         0        0.0%
+  sentence_count         0        0.0%
+         has_irb         0        0.0%
+     has_consent         0        0.0%
+    has_helsinki         0        0.0%
+       has_human         0        0.0%
+      has_animal         0        0.0%
+      has_waived         0        0.0%
+has_approval_num         0        0.0%
+   has_data_anon         0        0.0%
+
+--- ethics_sub_type  (124,196 rows) ---
+     column n_missing pct_missing
+     sub_id         0        0.0%
+  ethics_id         0        0.0%
+source_attr         0        0.0%
+      value        10        0.0%
+
+--- fuji_article_link  (253,112 rows) ---
+       column n_missing pct_missing
+      link_id         0        0.0%
+assessment_id         0        0.0%
+   article_id         0        0.0%
+
+--- fuji_assessment  (210,336 rows) ---
+        column n_missing pct_missing
+ assessment_id         0        0.0%
+           url         0        0.0%
+   assessed_at         0        0.0%
+   http_status         0        0.0%
+ error_message   209,897       99.8%
+  score_earned         0        0.0%
+   score_total         0        0.0%
+score_pct_fair         0        0.0%
+   score_pct_f         0        0.0%
+   score_pct_a         0        0.0%
+   score_pct_i         0        0.0%
+   score_pct_r         0        0.0%
+ maturity_fair         0        0.0%
+    maturity_f         0        0.0%
+    maturity_a         0        0.0%
+    maturity_i         0        0.0%
+    maturity_r         0        0.0%
+
+--- fuji_metric  (3,549,073 rows) ---
+           column n_missing pct_missing
+        metric_id         0        0.0%
+    assessment_id         0        0.0%
+metric_identifier         0        0.0%
+      metric_name         0        0.0%
+        principle         0        0.0%
+     score_earned         0        0.0%
+      score_total         0        0.0%
+         maturity         0        0.0%
+      test_status         0        0.0%
+
+--- given_name_gender  (2,150,835 rows) ---
+         column n_missing pct_missing
+     given_name         0        0.0%
+         gender         0        0.0%
+inference_score         0        0.0%
+         source         0        0.0%
+
+--- journal  (22,138 rows) ---
+    column n_missing pct_missing
+journal_id         0        0.0%
+     title         0        0.0%
+    abbrev    22,138      100.0%
+ issn_ppub     7,968       36.0%
+ issn_epub     3,903       17.6%
+ publisher    18,194       82.2%
+
+--- journal_oa  (22,138 rows) ---
+      column n_missing pct_missing
+  journal_id         0        0.0%
+   oa_status         0        0.0%
+  doaj_title         0        0.0%
+doaj_checked         0        0.0%
+
+--- keyword  (4,528,449 rows) ---
+    column n_missing pct_missing
+keyword_id         0        0.0%
+   keyword         0        0.0%
+
+--- link_rot  (1,129,798 rows) ---
+        column n_missing pct_missing
+        rot_id         0        0.0%
+           url         0        0.0%
+url_normalised         0        0.0%
+  source_table         0        0.0%
+     source_id         0        0.0%
+    article_id         0        0.0%
+      pub_year    22,184        2.0%
+        domain   213,581       18.9%
+        status         0        0.0%
+     http_code 1,129,791      100.0%
+     final_url 1,129,791      100.0%
+redirect_count         0        0.0%
+   response_ms         0        0.0%
+  content_type 1,129,791      100.0%
+ title_snippet 1,129,791      100.0%
+   wayback_url 1,129,798      100.0%
+    checked_at         0        0.0%
+     link_type         0        0.0%
+
+--- link_rot_run  (3 rows) ---
+     column n_missing pct_missing
+     run_id         0        0.0%
+ started_at         0        0.0%
+finished_at         0        0.0%
+     n_urls         0        0.0%
+  n_checked         0        0.0%
+       n_ok         0        0.0%
+     n_dead         0        0.0%
+    n_error         0        0.0%
+concurrency         0        0.0%
+  timeout_s         0        0.0%
+      notes         3      100.0%
+
+--- repo_classification  (1,169,559 rows) ---
+           column n_missing pct_missing
+         class_id         0        0.0%
+          link_id         0        0.0%
+           domain       201        0.0%
+        repo_name         0        0.0%
+        repo_type         0        0.0%
+  repo_infra_tier         0        0.0%
+    is_known_repo         0        0.0%
+   is_open_access         0        0.0%
+has_persistent_id         0        0.0%
+
+--- supplementary_material  (6,697,313 rows) ---
+    column n_missing pct_missing
+   supp_id         0        0.0%
+article_id         0        0.0%
+     label 4,242,842       63.4%
+   caption 3,084,707       46.1%
+media_type 6,691,477       99.9%
+       url 6,677,646       99.7%
+
+============================================================
+COLUMNS WITH ANY MISSING DATA: 46 of 200 total columns
+============================================================
+                       column_ref total_rows  n_missing pct_missing
+                   article.pmc_id  6,885,547  6,885,547      100.0%
+                   journal.abbrev     22,138     22,138      100.0%
+               link_rot_run.notes          3          3      100.0%
+             link_rot.wayback_url  1,129,798  1,129,798      100.0%
+               link_rot.final_url  1,129,798  1,129,791      100.0%
+            link_rot.content_type  1,129,798  1,129,791      100.0%
+               link_rot.http_code  1,129,798  1,129,791      100.0%
+           link_rot.title_snippet  1,129,798  1,129,791      100.0%
+supplementary_material.media_type  6,697,313  6,691,477       99.9%
+    fuji_assessment.error_message    210,336    209,897       99.8%
+       supplementary_material.url  6,697,313  6,677,646       99.7%
+                  article.pub_day  6,885,547  6,256,633       90.9%
+                     author.email 13,394,080 11,844,568       88.4%
+    article_funder.funder_country 10,634,891  8,795,370       82.7%
+                journal.publisher     22,138     18,194       82.2%
+                     author.orcid 13,394,080 10,089,823       75.3%
+     supplementary_material.label  6,697,313  4,242,842       63.4%
+          article_funder.grant_id 10,634,891  5,946,440       55.9%
+   supplementary_material.caption  6,697,313  3,084,707       46.1%
+        article_funder.funder_raw 10,634,891  4,463,062       42.0%
+                journal.issn_ppub     22,138      7,968       36.0%
+                 article.keywords  6,885,547  1,693,848       24.6%
+                  link_rot.domain  1,129,798    213,581       18.9%
+             accession_number.url 39,438,861  7,332,722       18.6%
+                journal.issn_epub     22,138      3,903       17.6%
+            article.received_date  6,885,547  1,046,050       15.2%
+            article.accepted_date  6,885,547    979,172       14.2%
+                article.epub_date  6,885,547    640,876        9.3%
+                article.pub_month  6,885,547    270,793        3.9%
+                  code_link.label     86,101      3,153        3.7%
+                    da_link.label  1,169,559     41,573        3.6%
+                article.pubmed_id  6,885,547    243,749        3.5%
+      article.copyright_statement  6,885,547    226,399        3.3%
+                link_rot.pub_year  1,129,798     22,184        2.0%
+                      article.doi  6,885,547     53,913        0.8%
+                  article.license  6,885,547     41,453        0.6%
+                 article.pub_year  6,885,547     25,939        0.4%
+                author.given_name 13,394,080     19,075        0.1%
+                     article.year  6,885,547      4,632        0.1%
+                   author.surname 13,394,080      8,269        0.1%
+                 author.full_name 13,394,080      7,859        0.1%
+       repo_classification.domain  1,169,559        201        0.0%
+                    article.title  6,885,547        576        0.0%
+            ethics_sub_type.value    124,196         10        0.0%
+                  article.subject  6,885,547         27        0.0%
+             article.article_type  6,885,547         12        0.0%
+
+============================================================
+SUMMARY
+============================================================
+Tables audited            : 28
+Total rows (all tables)   : 268,982,485
+Total columns audited     : 200
+Columns with zero missing : 154
+Columns with any missing  : 46
+Most incomplete column    : article.pmc_id  (100.0% missing)

@@ -1,0 +1,42 @@
+# requirements.txt
+# 10 Years of FAIR Principles — PMC Longitudinal Study (2012–2024)
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Minimum Python version: 3.10 (uses PEP 604 union types and PEP 585 generics)
+# Tested with Python 3.11 and 3.12.
+#
+# Version lower bounds are the earliest releases that provide the APIs used.
+# Upper bounds are intentionally omitted to avoid false conflicts; pin the
+# exact versions in environment.yml if you need a fully reproducible environment.
+
+# ── Data fetching (pipeline Stage 1) ─────────────────────────────────────────
+requests>=2.28.0          # HTTP for NCBI E-utilities, DOAJ API, Wayback Machine
+aiohttp>=3.9.0            # Async HTTP for link-rot checker (Stage 8)
+
+# ── Data wrangling & analysis ─────────────────────────────────────────────────
+pandas>=2.0.0             # DataFrames used throughout all analysis notebooks
+numpy>=1.24.0             # Numerical operations; pandas/scipy dependency
+scipy>=1.11.0             # stats.linregress, mannwhitneyu, pearsonr, etc.
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.7.0         # All figures across all 13 analysis notebooks
+seaborn>=0.13.0           # Statistical plot themes and heatmaps
+
+# ── Knowledge graph (pipeline Stage 7) ───────────────────────────────────────
+rdflib>=7.0.0             # RDF graph construction and Turtle/N-Quads serialisation
+SPARQLWrapper>=2.0.0      # SPARQL queries against local Oxigraph endpoint
+
+# ── Author demographics (pipeline/compute_gender.py) ─────────────────────────
+gender-guesser>=0.4.0     # First-name → gender inference fallback
+names-dataset>=3.3.0      # Primary name→gender lookup
+pycountry>=23.12.0        # Affiliation text → ISO-2 country (07_gender_analysis, 14_geographical)
+
+# ── Network analysis (fair_kg_analysis notebook) ──────────────────────────────
+networkx>=3.1.0           # Repository co-occurrence network graphs
+
+# ── Jupyter environment ───────────────────────────────────────────────────────
+jupyterlab>=4.0.0         # Recommended notebook interface
+notebook>=7.0.0           # Classic notebook interface (alternative to JupyterLab)
+ipykernel>=6.25.0         # Python kernel for Jupyter

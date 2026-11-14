@@ -1,0 +1,17 @@
+supp_id,article_id,year,media_type,caption,url,lic_key,lic_open,data_sharing_score,oami_eligible
+25708,32930,2011,video/avi,,s-18-00398-sup1.avi,unclear,False,2,False
+170800,191053,2012,video/mp4,,d-68-00893-sup1.mp4,unclear,False,2,False
+170801,191053,2012,video/mp4,,d-68-00893-sup2.mp4,unclear,False,2,False
+1716771,1890115,2019,video/mp4,,STM-11-aau8581-s002.pdf,unclear,False,3,False
+1716772,1890115,2019,video/mp4,,STM-11-aau8581-s003.pdf,unclear,False,3,False
+2859392,3059184,2021,video/mp4,"Semiautomatic segmentation, skeletonization, and pruning of Bcl10 filaments. Representative segmented Bcl10 filament superimposed medial-axis skeletons. (Left) Raw medial-axis skeleton. The skeleton contains several small spurs which occur because of voxel noise on the surface of the filament. (Middle) Medial-axis skeleton after moderate pruning. Some spurs are removed. (Right) Medial-axis skeleton after full pruning. All spurs are removed and only the main-body skeleton remains. (MP4)",,cc0_pd,True,5,True
+2866424,3066358,2021,video/mp4,"(Movie for Fig 2A ) Dynamics of synaptic clustering due to the G-clusteron location update rule, using a large value for the r parameter and trained on a single positive-labeled pattern. Synapse locations are initiated randomly, and then separated into groups of synapses with positive or negative inputs. (MP4)",,cc_by,True,8,True
+2866425,3066358,2021,video/mp4,(Movie for Fig 2B ) Same as S1 Movie but using a small value for the r parameter. (MP4),,cc_by,True,8,True
+2866426,3066358,2021,video/mp4,"(Movie for Fig 2C ) Similar to S1 Movie , but trained on a negative example, with synapse locations initiated such that synapses are clustered with same-sign input values. Over the course of learning, clusters are dispersed, leading to lower overall activation. (MP4)",,cc_by,True,8,True
+2866427,3066358,2021,video/mp4,(Movie for Fig 3C ) Dynamics of synaptic clustering for a G-clusteron trained on positive-labeled input patterns from a multivariate Gaussian dataset with multiple groups of positively correlated inputs. (MP4),,cc_by,True,8,True
+2866428,3066358,2021,video/mp4,"(Movie for Fig 3D ) Same as S4 Movie , but with negative-labeled input patterns. Clusters of negatively correlated inputs are formed over the course of learning. (MP4)",,cc_by,True,8,True
+2891808,3093073,2021,video/x-msvideo,Contracting cardiomyocyte before and after ablation of a single Z-disc. (AVI),,cc_by,True,3,True
+2892069,3093143,2021,video/mp4,Sample clip of a baseline video. (MP4),,cc_by,True,3,True
+2892070,3093143,2021,video/mp4,Sample clip of an isolation video. (MP4),,cc_by,True,3,True
+2892071,3093143,2021,video/mp4,Sample clip of a transportation video. (MP4),,cc_by,True,3,True
+2897901,3099262,2021,video/mp4,"W8 measurement system analysis. Representative video displaying the different phases of the W8 measurement system analysis: spheroid selection, stabilizing and centering phases, measurements process (2 repetitions), and the final sorting. The analysis channel is shown at low magnification (LQ camera, on the left) and at higher magnification (HQ camera, on the right). The frame rate speeded up about 3 times. (MP4)",,cc_by,True,3,True

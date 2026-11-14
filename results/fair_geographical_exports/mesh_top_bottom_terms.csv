@@ -1,0 +1,41 @@
+mesh_term,n_articles,avg_score,rank
+Cryoelectron Microscopy,963,7.163,top
+Chromatin Immunoprecipitation Sequencing,202,7.163,top
+Immunoprecipitation,71,7.141,top
+Giant Viruses,62,7.065,top
+RNA-Seq,801,6.911,top
+DNA Replication Timing,83,6.904,top
+Single-Cell Gene Expression Analysis,197,6.888,top
+"Genome, Chloroplast",840,6.851,top
+Bacteroides thetaiotaomicron,52,6.808,top
+Genomic Structural Variation,258,6.779,top
+"DNA, Ancient",261,6.77,top
+"Genome, Plastid",307,6.762,top
+"Genome, Mitochondrial",1896,6.725,top
+Mutation Accumulation,62,6.71,top
+Virome,319,6.708,top
+Genetic Introgression,139,6.705,top
+X Chromosome,157,6.701,top
+Nanopore Sequencing,604,6.666,top
+RNA Isoforms,51,6.627,top
+Alphaproteobacteria,95,6.611,top
+Occupational Medicine,82,2.22,bottom
+"Education, Nursing, Graduate",114,2.237,bottom
+Nursing,148,2.264,bottom
+International Educational Exchange,66,2.318,bottom
+Hair Diseases,65,2.323,bottom
+Sufentanil,114,2.333,bottom
+Weight Prejudice,69,2.348,bottom
+Nurse Administrators,266,2.383,bottom
+"Dental Implants, Single-Tooth",111,2.387,bottom
+"Education, Pharmacy",188,2.388,bottom
+Tympanoplasty,56,2.393,bottom
+Metastasectomy,90,2.4,bottom
+One-Lung Ventilation,106,2.415,bottom
+"Coronary Artery Bypass, Off-Pump",202,2.436,bottom
+Physical and Rehabilitation Medicine,71,2.451,bottom
+Plagiarism,62,2.452,bottom
+Colposcopy,87,2.46,bottom
+Enthesopathy,50,2.46,bottom
+Migraine without Aura,71,2.465,bottom
+Scleritis,75,2.48,bottom

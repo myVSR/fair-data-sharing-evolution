@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata from this
+  file. The accompanying manuscript is currently under review for the
+  Scientific Data "10 Years of FAIR" special issue; a full article citation
+  will be added here once it is published (see also README.md).
+title: "How did data sharing evolve in the decade since the FAIR Principles?"
+type: software
+authors:
+  - family-names: Samuel
+    given-names: Sheeba
+    email: sheeba.samuel@informatik.tu-chemnitz.de
+    affiliation: >-
+      Distributed and Self-organizing Systems, Chemnitz University of
+      Technology, Chemnitz, Germany
+  - family-names: Mietchen
+    given-names: Daniel
+    email: daniel.mietchen@fiz-karlsruhe.de
+    affiliation: >-
+      FIZ Karlsruhe - Leibniz Institute for Information Infrastructure,
+      Berlin, Germany; Institute for Globally Distributed Open Research and
+      Education (IGDORE), Göteborg, Sweden
+abstract: >-
+  Code, notebooks, and pipeline for a large-scale longitudinal analysis of
+  data-sharing practice in biomedical articles from the PubMed Central Open
+  Access Subset (2011-2025), relative to the 2016 publication of the FAIR
+  Guiding Principles.
+license: Apache-2.0
+repository-code: "https://github.com/myVSR/fair-data-sharing-evolution"
+keywords:
+  - FAIR principles
+  - data sharing
+  - data availability statements
+  - open science
+  - reproducibility
+  - PubMed Central

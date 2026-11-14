@@ -1,0 +1,21 @@
+repo_name,repo_infra_tier,n
+doi.org,unknown,117466
+GitHub,silver,111743
+NCBI GEO,gold,58911
+GenBank,gold,34795
+NCBI,gold,32345
+OSF,silver,30610
+BioProject,gold,29007
+NCBI SRA,gold,25308
+EMBL-EBI,gold,25196
+dx.doi.org,unknown,15061
+Zenodo,gold,12733
+Figshare,gold,11442
+PDB (RCSB),gold,9710
+ENA,gold,9180
+pnas.org,unknown,8655
+Institutional (ngdc.cncb.ac.cn),silver,7952
+portal.gdc.cancer.gov,unknown,6705
+proteomecentral.proteomexchange.org,unknown,5962
+Mendeley Data,gold,5520
+PRIDE,gold,5456

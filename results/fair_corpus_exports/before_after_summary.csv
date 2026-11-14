@@ -1,0 +1,5 @@
+Metric,Pre-2016,Post-2016,Test,p-value,Direction
+% articles with explicit DAS,6.3%,51.1%,χ²=643337.5,0.00e+00,↑ improved
+% articles 'available on request',0.2%,14.4%,χ²=147454.7,0.00e+00,↑ worsened
+% articles naming a repository,1.2%,7.8%,χ²=53767.8,0.00e+00,↑ improved
+Mean data-sharing score (0–10),4.51,3.92,Mann-Whitney U=3009940923160,0.00e+00,↓ declined
