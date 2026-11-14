@@ -1,5 +1,7 @@
 # 10 Years of FAIR Principles: How Did Data Sharing Evolve?
 
+[![DOI](https://zenodo.org/badge/1457843498.svg)](https://doi.org/10.5281/zenodo.24231217)
+
 Code, notebooks, and manuscript for a large-scale longitudinal analysis of
 data-sharing practice in 6,874,176 biomedical articles from the PubMed
 Central Open Access Subset (2011–2025), relative to the 2016 publication of
